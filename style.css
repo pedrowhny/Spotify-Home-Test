@@ -1,0 +1,151 @@
+/* Reset nas configurações gerais de estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    background-image: url('assets/images/artistic-blurry-colorful-wallpaper-background.jpg');
+    background-size: cover; 
+    background-position: center; 
+    min-height: 100dvh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #181413;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #1DB954; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease; 
+    padding: 10px 20px; 
+    border: 2px solid #fff; 
+    border-radius: 20px; 
+}
+
+.nav-link:hover {
+    color: #000; 
+    background-color: #fff; 
+}
+
+
+/* Estilizando o conteúdo principal */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+/* Ajuste do tamanho da imagem de exemplo */
+main img.celular-exemplo {
+    height: 420px;
+}
+
+
+main .text-spotify {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-bottom: 150px;
+}
+
+main .text-spotify img {
+    width: 330px;
+    padding: 10px;
+}
+
+main .text-spotify h2 {
+    font-weight: 500;
+    font-size: 2.7em;
+    text-indent: 20px;
+}
+
+/*Estilizando as figuras geométricas */
+.enfeite-esquerdo {
+    position: absolute;
+    width: 462.5px;
+    height: 473px;
+    left: -243px;
+    top: 120px;
+    background: #2ED761;
+    clip-path: polygon(50% 0%, 100% 25%, 90% 80%, 10% 100%, 0% 25%); 
+}
+
+.enfeite-direito {
+    position: absolute;
+    width: 486px; 
+    height: 170px; 
+    right: -73px; 
+    top: 480px;
+    background: #2ED761;
+    clip-path: polygon(10% 30%, 100% 0%, 100% 100%, 10% 100%, 25% 70%, 75% 70%, 90% 100%, 0% 100%);
+    transform: scale(0.7);
+}
+
+/*Estilizando o rodapé */
+footer {
+    background-color: black; 
+    color: #fff;
+    text-align: center;
+    padding: 0.50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-links, .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-links a, .footer-social a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-social img {
+    height: 24px;
+}
+
+.footer-links a:hover, .footer-social a:hover {
+    text-decoration: underline;
+}
+
