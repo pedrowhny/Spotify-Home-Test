@@ -98,6 +98,7 @@ main .text-spotify h2 {
 
 /*Estilizando as figuras geométricas */
 .enfeite-esquerdo {
+    display: flex;
     position: absolute;
     width: 462.5px;
     height: 473px;
@@ -108,6 +109,7 @@ main .text-spotify h2 {
 }
 
 .enfeite-direito {
+    display: flex;
     position: absolute;
     width: 486px; 
     height: 170px; 
